@@ -12,11 +12,9 @@ const CategoryFilter = [
 ];
 
 const OperatorFilter = [
-  { id: "less_than_equal", name: "<=" },
-  { id: "less_than", name: "<" },
-  { id: "equal", name: "=" },
-  { id: "more_than", name: ">" },
-  { id: "more_than_equal", name: ">=" },
+  { id: "less_than_equal", name: "<=" }, //2
+  { id: "equal", name: "=" }, //0
+  { id: "more_than_equal", name: ">=" }, //1
 ];
 
 const ValueFilter = [
